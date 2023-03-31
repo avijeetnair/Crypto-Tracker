@@ -3,7 +3,7 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 import AliceCarousel from "react-alice-carousel";
 import { Link } from "react-router-dom";
-import { TrendingCoins } from "../../config/api";
+import { TrendingCoins } from "../../configs/api";
 import { CryptoState } from "../../CryptoContext";
 import { numberWithCommas } from "../CoinsTable.js";
 import React from "react";

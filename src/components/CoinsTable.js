@@ -17,7 +17,7 @@ import {
     Paper,
 } from "@material-ui/core";
 import axios from "axios";
-import { CoinList } from "../config/api";
+import { CoinList } from "../configs/api";
 import { useHistory } from "react-router-dom";
 import { CryptoState } from "../CryptoContext";
 
